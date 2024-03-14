@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body {
+    height:100%;
+    width: 100%;
+    color: #fff;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container {
+    height: 750px;
+    width: 400px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+  transition: border-width 0.5s;
+}
+ #ri-heart-line,#ri-chat-3-line, #ri-arrow-right-up-line{
+    color:#ffff;
+    font-size: 50px;    
+}
+h3{
+    padding: 10px;
+    color: white;
+    font-family: cursive;
+}
+#profile1{
+    width: 70px;
+  height: 70px; 
+  border-radius: 50%; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  border: 2px solid #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 3px;
+  margin-top: 10px;
+
+}
+#profile2{
+    width: 70px;
+  height: 70px; 
+  border-radius: 50%; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  border: 2px solid #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 3px;
+  margin-top: 2px;
+
+}
+#profile3{
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: 2px solid #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2px;
+    
+}
+#icon{
+    width: 40px; /* Adjust the size of the circle */
+  height: 40px; /* Adjust the size of the circle */
+  border-radius: 50%; /* Makes the shape circular */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  border: 2px solid #fff; /* Add a border to the circle */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  margin-left: 5px;
+}
+#post-pic{
+    height: 450px;
+    width: 400px;
+} 
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#id {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: #fff;
+
+}
+p{
+    color: #fff;
+}
+#heart-fill{
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    translate:  transform(-50%, -50%);
+}
